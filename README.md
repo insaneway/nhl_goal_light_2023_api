@@ -13,7 +13,7 @@ run:
 
 ```
 $ sudo apt-get install git python3 python3-pip
-$ git clone https://github.com/arim215/nhl_goal_light.git
+$ git clone https://github.com/arim215/nhl_goal_light_2023_api.git
 $ pip3 install -r requirements.txt
 ```
 
