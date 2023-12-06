@@ -1,7 +1,7 @@
 # Overview
 All credit goes to arim215 (https://github.com/arim215/nhl_goal_light) for original work. NHL changed their API in 2023 and this has been adapted to the new API.
 
-Nhl goal light python3 for raspberry pi GPIO. Works with any team, just enter team name without city when prompted.
+Nhl goal light python3 for raspberry pi GPIO. Works with any team, just enter full team name when prompted. (e.g. Dallas Stars)
 
 Before use, make sure you have:
 
