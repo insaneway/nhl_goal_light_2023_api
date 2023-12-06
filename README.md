@@ -45,3 +45,6 @@ You will be prompted to enter a delay that works with your stream. You may also 
 
 # Credit
 Thank you to arim215 for the original code. The NHL changed their API in 2023 and this program was adapted from arim215's original work. https://github.com/arim215/nhl_goal_light
+
+# Known Issues
+Goal horn does not play in after OT goals. Working on a solution.
