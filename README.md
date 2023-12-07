@@ -38,7 +38,7 @@ For documentation on how to wire the GPIOs with the lights and the button, pleas
 * 3.5mm audio extension cable
 
 # Audio
-The current configuration is to play the audio and light for 30 seconds and then fade out over another 10 seconds. If you wish to change this, you can edit the following lines in light.py.
+The current configuration is to play the audio and light for 30 seconds and then fade out over another 10 seconds. If you wish to change this, you can edit the following lines in /lib/light.py.
 
 ```
 Line 40  time.sleep(30) #where 30 is the seconds the song is played
