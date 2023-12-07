@@ -38,7 +38,16 @@ For documentation on how to wire the GPIOs with the lights and the button, pleas
 * 3.5mm audio extension cable
 
 # Audio
+The current configuration is to play the audio and light for 30 seconds and then fade out over another 10 seconds. If you wish to change this, you can edit the following lines in light.py.
+
+```
+Line 40  time.sleep(30) #where 30 is the seconds the song is played
+Line 41  pygame.mixer.music.fadeout(10000) #where 10000 is milliseconds that the song fades out
+```
+
 Goal horns are tied to the team you select. All 32 teams are included. If you wish to change the goal horn for your team, rename them "goal_horn_XXX" with the team tricode and save them to the audio file. (e.g. "goal_horn_DAL" for Dallas Stars)
+
+If you have a button connected to GPIO 11, the audio file played is "goal_horn_button". The button must be connected to GPIO 11 to work. The default is the Dallas Stars horn. Change the name of any team's horn to "goal_horn_button" and it will play when pressed.
 
 # Delay
 You will be prompted to enter a delay that works with your stream. You may also edit "settings.txt" to create a default option. Make sure the delay is entered in Line 3.
